@@ -1,38 +1,57 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
+  height: 100vh;
+  border-radius: 10px;
   flex-direction: column;
+}
+.Top {
+  border-start-end-radius: 10px;
+  border-top-left-radius: 10px;
+  /* background-color: black; */
+  display: flex;
+}
+.Search {
+  background-color: lightyellow;
+}
+.Main {
+  background-color: red;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.Circle1 {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 14px;
+  height: 14px;
+  background-color: red;
+  border-radius: 50%;
 }
-
-.App-link {
-  color: #61dafb;
+.Circle2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  background-color: yellow;
+  border-radius: 50%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Circle3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  background-color: green;
+  border-radius: 50%;
+}
+.One {
+  width: 60px;
+  display: flex;
+  background-color: wheat;
+  justify-content: space-between;
+}
+.Four {
+  display: flex;
+  align-items: center;
 }
